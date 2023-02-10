@@ -1,3 +1,5 @@
 # Fynd-Academy
-# Day-1
-## Introduction to HTML
+
+# Day 1
+
+1. Introduction to HTML
