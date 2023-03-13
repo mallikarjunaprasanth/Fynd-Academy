@@ -10,8 +10,8 @@
   background: #fff;
 }
 nav{
-  position: fixed;
-  background: #1b1b1b;
+  position: absolute;
+  background: transparent;
   width: 100%;
   padding: 10px 0;
   z-index: 12;
@@ -53,10 +53,18 @@ nav .menu{
   background: #fff;
   color: black;
 }
-.img{
-  background: url('.././HTML-PROJECT/Assests/Images/cam.jpg')no-repeat;
+.img,frameset{
+  background: url('./Assets/bg.webp')no-repeat;
   width: 100%;
   height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.img2,frameset{
+  background: url('./Assets/bg.webp')no-repeat;
+  width: 100%;
+  height: 150vh;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -114,5 +122,43 @@ nav .menu{
 }
 .center .btns button:last-child{
   background: white;
+  color: black;
+}
+
+h1,h2,h3,h4,h5,h6{
+  color: white ;
+}
+.Parent{
+  display: flex;
+  justify-content: space-between;
+
+  color: white;
+  
+}
+.Parent .child1{
+  background:linear-gradient(to right ,rgb(126, 126, 126),transparent);
+  width: 45%;
+ height: 250px;
+}
+.Parent .child2{
+  background:linear-gradient(to left ,rgb(126, 126, 126),transparent);
+  width: 45%;
+ height: 250px;
+ margin-right: 20px;
+}
+.copy{
+  border-bottom-left-radius: 40%;
+  border-left: 2px solid gold;
+  border-bottom: 2px solid gold;
+  padding: 5px;
+  background: gold;
+  color: black;
+cursor: pointer;
+}
+.copy:hover{
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+  background: white;
+  padding: 5px;
   color: black;
 }
