@@ -7,8 +7,9 @@
 </template>
 
 <script>
-import DynamicComponen from './assets/components/DynamicComponen.vue';
-import ParentChild from "./assets/components/ParentChild.vue";
+import DynamicComponen from './components/DynamicComponen.vue';
+import ParentChild from './components/ParentChild.vue';
+
 export default {
   components: { ParentChild, DynamicComponen },
   name: "App",
